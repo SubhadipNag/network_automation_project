@@ -43,13 +43,13 @@ network_automation_project/
 ### Devices
 | Device | Telnet Port         | Role     |
 |--------|---------------------|----------|
-| R2     | 192.168.80.129:5003 | Router 2 |
-| R3     | 192.168.80.129:5002 | Router 3 |
+| R1     | 192.168.80.129:5003 | Router 1 |
+| R2     | 192.168.80.129:5002 | Router 2 |
 | Cloud1 | —                   | NAT/Link |
 
 ### Interfaces Used
-- R2: `FastEthernet0/0` → 10.0.0.1/30
-- R3: `FastEthernet0/0` → 10.0.0.2/30
+- R1: `FastEthernet0/0` → 10.0.0.1/30
+- R2: `FastEthernet0/0` → 10.0.0.2/30
 
 ---
 
